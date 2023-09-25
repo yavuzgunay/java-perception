@@ -208,8 +208,7 @@ public class HomeForm extends JFrame implements ActionListener {
         x3[1]=-1;
         x3[2]=-1;
         x3[3]=-1;
-
-        setTitle("Learning Algorithm - 21810285 - Yavuz GUNAY");
+        setTitle("Learning Algorithm");
         setSize(600, 475);
         headerPanel.setSize(600,50);
         MainPanel.setSize(600,450);
@@ -219,7 +218,6 @@ public class HomeForm extends JFrame implements ActionListener {
         setLocationRelativeTo(null);
         setResizable(false);
         getRootPane().setWindowDecorationStyle(JRootPane.FRAME);
-        setUndecorated(true);
         add(MainPanel);
         maxErrorSpinner.setValue(1);
         gateTypeCB.addItem(new AnyObject("Select Gate Type", "0").value);
